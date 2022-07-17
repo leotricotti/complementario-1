@@ -4,7 +4,7 @@ let millas;
 let kilometros;
 let continuar; 
 
-while(continuar != "n" ){
+while(continuar != "n"){
     millas = parseFloat(prompt("Ingrese la cantidad de millas: "));
     kilometros = millas / 1.60;
     alert(`Sus millas equivalen a: ${kilometros.toFixed(2)} kilometros.`);
